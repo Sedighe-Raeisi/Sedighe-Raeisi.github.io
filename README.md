@@ -15,7 +15,7 @@ Skills: Python / Fortran / C#
 A model that detects the existence of tumor in brain MRI images.  
 ![image](https://user-images.githubusercontent.com/67642255/143002834-f2f4c136-121c-4e73-b342-8181de70a878.png)
 
-# [Object Detection, Persian Digit Detection](https://github.com/Sedighe-Raeisi/Object_Detection_Persian_Digit_Detection)   
+# [Persian Digit Detection](https://github.com/Sedighe-Raeisi/Object_Detection_Persian_Digit_Detection)   
 ![image](https://user-images.githubusercontent.com/67642255/143003349-fd0997f9-d851-4d2c-844a-2ce93fd38d00.png)
 
 # [Analysis of Value of Bank Customers](https://github.com/Sedighe-Raeisi/Analysis-of-value-of-bank-customers)   
