@@ -8,10 +8,11 @@ Skills: Python / Fortran / C#
 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/sedighe-raeisi-684b9812b//) 
-# My Course on Machine Learning with Python:
+# [My Course on Machine Learning with Python](https://mooc.ut.ac.ir/course/detail/49-/228-python)  
 **Tehran University**   
 
-[![image](https://user-images.githubusercontent.com/67642255/143001120-4cba35fc-96a6-4a96-a5a5-923c3675d22c.png)](https://mooc.ut.ac.ir/course/detail/49-/228-python)  
+![Uploading image.png…]()  
+
 
 # [Brain Tumor Detection Project](https://github.com/Sedighe-Raeisi/Brain-tumor-detection)
 A model that detects the existence of tumor in brain MRI images.  
