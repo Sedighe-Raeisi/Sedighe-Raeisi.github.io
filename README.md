@@ -13,3 +13,15 @@ Skills: Python / Fortran / C#
 
 [![image](https://user-images.githubusercontent.com/67642255/143001120-4cba35fc-96a6-4a96-a5a5-923c3675d22c.png)](https://mooc.ut.ac.ir/course/detail/49-/228-python)  
 
+# Brain Tumor Detection Project (https://github.com/Sedighe-Raeisi/Brain-tumor-detection)
+A model that detects the existence of tumor in brain MRI images.  
+![image](https://user-images.githubusercontent.com/67642255/143002834-f2f4c136-121c-4e73-b342-8181de70a878.png)
+
+# Object Detection, Persian Digit Detection (https://github.com/Sedighe-Raeisi/Object_Detection_Persian_Digit_Detection)   
+![image](https://user-images.githubusercontent.com/67642255/143003349-fd0997f9-d851-4d2c-844a-2ce93fd38d00.png)
+
+# Analysis of Value of Bank Customers(https://github.com/Sedighe-Raeisi/Analysis-of-value-of-bank-customers)  
+
+
+
+
