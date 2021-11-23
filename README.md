@@ -25,7 +25,7 @@ A model that detects the existence of tumor in brain MRI images.
 # [My Course on Machine Learning with Python](https://mooc.ut.ac.ir/course/detail/49-/228-python)  
 **Tehran University**   
 
-![image](https://user-images.githubusercontent.com/67642255/143005409-2b930771-088b-412e-a5ac-2520b9e9bec1.png)  
+![image](https://user-images.githubusercontent.com/67642255/143018913-e0823973-999f-4f96-9589-27c90639d7b7.png)  
 
 
 
