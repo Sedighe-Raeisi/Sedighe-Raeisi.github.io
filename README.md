@@ -3,7 +3,7 @@
 
 I made this GitHub, to share some of my projects with you.
 
-Skills: Supervised & Unsupervised ML / Deep Learning /
+Skills: Python / Fortran / C#
 
 
 
