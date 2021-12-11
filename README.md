@@ -1,5 +1,5 @@
 ### Hi there 👋, my name is Sedighe Raeisi
-![](https://media-exp1.licdn.com/dms/image/C4E16AQHdXd_iMqkJlg/profile-displaybackgroundimage-shrink_200_800/0/1608968170758?e=1643241600&v=beta&t=d8i28JVwJOI6JRC6qeKX1cTLuILFUtxeRghHcaazTPs)
+![](https://drive.google.com/file/d/1yaYko3KqbYhPUsB59NXr2a0b9g96gAaR/view?usp=sharing)
 
 I made this GitHub, to share some of my projects with you.
 
