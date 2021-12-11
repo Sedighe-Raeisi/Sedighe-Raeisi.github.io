@@ -1,9 +1,10 @@
 ### Hi there 👋, my name is Sedighe Raeisi
-![](https://drive.google.com/file/d/1yaYko3KqbYhPUsB59NXr2a0b9g96gAaR/view?usp=sharing)
+
+![image](https://user-images.githubusercontent.com/67642255/145673005-fc964545-6c6a-41fa-a75d-6cb2d7e9eb3b.png)
 
 I made this GitHub, to share some of my projects with you.
 
-Skills: Python / Fortran / C#
+**Skills**: Python / Fortran / C#
 
 
 
