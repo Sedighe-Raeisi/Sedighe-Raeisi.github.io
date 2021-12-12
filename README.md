@@ -34,8 +34,9 @@ A model that detects the existence of tumor in brain MRI images.
  ![image](https://user-images.githubusercontent.com/67642255/145201142-8f9b28ac-d3bf-4a95-ac0a-121e6dd61b25.png)
  
 ____
- 
-![Alt Text](https://media1.giphy.com/media/112RGZxHnf9uTK/giphy.gif?cid=ecf05e471gydsjtkie7z4ltkxhcg76dognbkhnr2bbbotwlc&rid=giphy.gif&ct=g)     
+
+
+#![Alt Text](https://media1.giphy.com/media/112RGZxHnf9uTK/giphy.gif?cid=ecf05e471gydsjtkie7z4ltkxhcg76dognbkhnr2bbbotwlc&rid=giphy.gif&ct=g)     
 
  2- [**Mask RCNN**](https://github.com/Sedighe-Raeisi/Mask_R-CNN)    
 Today, I am happy!🥳    
