@@ -23,27 +23,24 @@ A model that detects the existence of tumor in brain MRI images.
 ![image](https://user-images.githubusercontent.com/67642255/143004823-9b0ba573-dedf-455d-bc8b-479217910f8d.png)   
 
 
-# [My Course on Machine Learning with Python](https://mooc.ut.ac.ir/course/detail/49-/228-python)  
-**Tehran University**   
-
-![image](https://user-images.githubusercontent.com/67642255/143018913-e0823973-999f-4f96-9589-27c90639d7b7.png)  
-
-# Latest Repositories:
-1- [**Stock Market Predicting with LSTM**](https://github.com/Sedighe-Raeisi/Stock-Market-Predicting-with-LSTM)   
+# [Stock Market Predicting with LSTM](https://github.com/Sedighe-Raeisi/Stock-Market-Predicting-with-LSTM)   
  
  ![image](https://user-images.githubusercontent.com/67642255/145201142-8f9b28ac-d3bf-4a95-ac0a-121e6dd61b25.png)
- 
-____
 
 
-![Alt Text](https://media1.giphy.com/media/112RGZxHnf9uTK/giphy.gif?cid=ecf05e471gydsjtkie7z4ltkxhcg76dognbkhnr2bbbotwlc&rid=giphy.gif&ct=g)     
+<!--[![Alt Text](https://media1.giphy.com/media/112RGZxHnf9uTK/giphy.gif?cid=ecf05e471gydsjtkie7z4ltkxhcg76dognbkhnr2bbbotwlc&rid=giphy.gif&ct=g)]-->
 
- 2- [**Mask RCNN**](https://github.com/Sedighe-Raeisi/Mask_R-CNN)    
-Today, I am happy!🥳    
-Finally, I implemented the mask R CNN.     
-In the next step, I am going to train it on some data.
+ # [Mask R-CNN](https://github.com/Sedighe-Raeisi/Mask_R-CNN)    
+I implemented the mask R-CNN.     
+In the next step, I am going to train it on some data.     
+![image](https://user-images.githubusercontent.com/67642255/145722412-580e64fd-1d0b-4aa9-a763-9e367d49f911.png)
 
 
+# [My Course on Machine Learning with Python](https://mooc.ut.ac.ir/course/detail/49-/228-python)  
+**Tehran University**   
+![image](https://user-images.githubusercontent.com/67642255/145722436-7fdd033d-e7c9-45ee-9a0b-789225331103.png)
+
+<!--[![image](https://user-images.githubusercontent.com/67642255/143018913-e0823973-999f-4f96-9589-27c90639d7b7.png)]::-->
 
 
 
