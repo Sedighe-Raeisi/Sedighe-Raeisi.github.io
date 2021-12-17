@@ -35,7 +35,7 @@ I implemented the mask R-CNN.
 In the next step, I am going to train it on some data.     
 ![image](https://user-images.githubusercontent.com/67642255/145722412-580e64fd-1d0b-4aa9-a763-9e367d49f911.png)
 
-# NLP NLP-Sentiment-Analysis-
+# [NLP Sentiment Analysis](https://github.com/Sedighe-Raeisi/NLP-Sentiment-Analysis-)  
 Sentiment classification between positive and negative tweets:  
 ![image](https://user-images.githubusercontent.com/67642255/146522194-94689594-0ba5-42f0-aa99-fe8671f3d6e3.png)  
 
