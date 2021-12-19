@@ -37,7 +37,14 @@ In the next step, I am going to train it on some data.
 
 # [NLP Sentiment Analysis](https://github.com/Sedighe-Raeisi/NLP-Sentiment-Analysis-)  
 Sentiment classification between positive and negative tweets:  
-![image](https://user-images.githubusercontent.com/67642255/146522194-94689594-0ba5-42f0-aa99-fe8671f3d6e3.png)  
+I used the following methods:
+- TfIdf with Random Forest classifier 
+- Embedding with Conv1D neural network classifier 
+- Pretrained Embedding, Glove with two different architecture  
+
+**Pretrained Glove**   
+![image](https://user-images.githubusercontent.com/67642255/146675800-5e62af63-5071-44e2-839d-c09b34200a00.png)   
+
 
  
 # [My Course on Machine Learning with Python](https://mooc.ut.ac.ir/course/detail/49-/228-python)  
