@@ -40,7 +40,7 @@ Sentiment classification between positive and negative tweets:
 I used the following methods:
 - TfIdf with Random Forest classifier 
 - Embedding with Conv1D neural network classifier 
-- Pretrained Embedding, Glove with two different architecture  
+- Pretrained Embedding, Glove embedding and two different architecture  neural network classifier  
 
 **Pretrained Glove**   
 ![image](https://user-images.githubusercontent.com/67642255/146675800-5e62af63-5071-44e2-839d-c09b34200a00.png)   
