@@ -41,9 +41,11 @@ I used the following methods:
 - TfIdf with Random Forest classifier 
 - Embedding with Conv1D neural network classifier 
 - Pretrained Embedding, Glove embedding and two different architecture  neural network classifier  
+- BERT model   
+**-------------------Pretrained Glove ------------------------------------BERT Model--------------------**    
+![image](https://user-images.githubusercontent.com/67642255/146675800-5e62af63-5071-44e2-839d-c09b34200a00.png)
+![image](https://user-images.githubusercontent.com/67642255/147138268-6657daea-2ab4-44c0-bf63-e4cc1e68685b.png)
 
-**Pretrained Glove**   
-![image](https://user-images.githubusercontent.com/67642255/146675800-5e62af63-5071-44e2-839d-c09b34200a00.png)   
 
 
  
