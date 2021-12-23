@@ -49,8 +49,9 @@ I used the following methods:
    
  
 | Model Name| Tf-Idf | Embedding | Pre-trained Glove | BERT |   
-|------------|------------|------------|-----------|------------|  
-|Confusion Matrix|  ![image](https://user-images.githubusercontent.com/67642255/147206167-3322023f-9b74-4463-b0b7-93dfd371f48e.png) | ![image](https://user-images.githubusercontent.com/67642255/147206202-870603a7-55b4-4afc-9bb3-5f075c895300.png) | ![image](https://user-images.githubusercontent.com/67642255/147206246-8aa4486c-25a2-43b2-860f-ff471ed59ec4.png) |  |  
+|     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |  
+|Confusion Matrix|  ![image](https://user-images.githubusercontent.com/67642255/147206167-3322023f-9b74-4463-b0b7-93dfd371f48e.png) | ![image](https://user-images.githubusercontent.com/67642255/147206202-870603a7-55b4-4afc-9bb3-5f075c895300.png) | ![image](https://user-images.githubusercontent.com/67642255/147206246-8aa4486c-25a2-43b2-860f-ff471ed59ec4.png) | ![image](https://user-images.githubusercontent.com/67642255/147253669-ba2c5097-ca5a-419e-88d2-8963ce9d79d0.png)|  
+| Accuracy | .72 | .76 | .77 | .78 |
 
 
 
