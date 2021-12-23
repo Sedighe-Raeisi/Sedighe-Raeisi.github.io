@@ -42,6 +42,16 @@ I used the following methods:
 - Embedding with Conv1D neural network classifier 
 - Pretrained Embedding, Glove embedding and two different architecture  neural network classifier  
 - BERT model   
+
+
+
+
+   
+ 
+| Model Name| Tf-Idf | Embedding | Pre-trained Glove | BERT |   
+|------------|------------|------------|-----------|------------|  
+|Confusion Matrix|  ![image](https://user-images.githubusercontent.com/67642255/147206167-3322023f-9b74-4463-b0b7-93dfd371f48e.png) | ![image](https://user-images.githubusercontent.com/67642255/147206202-870603a7-55b4-4afc-9bb3-5f075c895300.png) | ![image](https://user-images.githubusercontent.com/67642255/147206246-8aa4486c-25a2-43b2-860f-ff471ed59ec4.png) |  |  
+
 **-------------------Pretrained Glove ------------------------------------BERT Model--------------------**    
 ![image](https://user-images.githubusercontent.com/67642255/146675800-5e62af63-5071-44e2-839d-c09b34200a00.png)
 ![image](https://user-images.githubusercontent.com/67642255/147138268-6657daea-2ab4-44c0-bf63-e4cc1e68685b.png)
