@@ -40,8 +40,8 @@ In the next step, I am going to train it on some data.
  
 | Model Name| Tf-Idf | Embedding | Pre-trained Glove | BERT |   
 |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |  
-|Confusion Matrix|![image](https://user-images.githubusercontent.com/67642255/147255994-86dfae0f-117d-4053-a3b9-955a3866bbe8.png)|![image](https://user-images.githubusercontent.com/67642255/147254826-b1667de3-707b-4442-b976-790702c3c130.png)| ![image](https://user-images.githubusercontent.com/67642255/147206246-8aa4486c-25a2-43b2-860f-ff471ed59ec4.png) | ![image](https://user-images.githubusercontent.com/67642255/147253669-ba2c5097-ca5a-419e-88d2-8963ce9d79d0.png)|  
-| Accuracy | .72 | .76 | .77 | .78 |
+|Confusion Matrix|![image](https://user-images.githubusercontent.com/67642255/147255994-86dfae0f-117d-4053-a3b9-955a3866bbe8.png)|![image](https://user-images.githubusercontent.com/67642255/147254826-b1667de3-707b-4442-b976-790702c3c130.png)| ![image](https://user-images.githubusercontent.com/67642255/147206246-8aa4486c-25a2-43b2-860f-ff471ed59ec4.png) |![image](https://user-images.githubusercontent.com/67642255/147358075-16f9fd97-7729-40ca-a081-9bd85801a698.png)|  
+| Accuracy | .72 | .76 | .77 | .79 |
 
 
 
