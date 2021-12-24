@@ -36,17 +36,7 @@ In the next step, I am going to train it on some data.
 ![image](https://user-images.githubusercontent.com/67642255/145722412-580e64fd-1d0b-4aa9-a763-9e367d49f911.png)
 
 # [NLP Sentiment Analysis](https://github.com/Sedighe-Raeisi/NLP-Sentiment-Analysis-)  
-Sentiment classification between positive and negative tweets:  
-I used the following methods:
-- TfIdf with Random Forest classifier 
-- Embedding with Conv1D neural network classifier 
-- Pretrained Embedding, Glove embedding and two different architecture  neural network classifier  
-- BERT model   
-
-
-
-
-   
+  
  
 | Model Name| Tf-Idf | Embedding | Pre-trained Glove | BERT |   
 |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |  
