@@ -16,6 +16,11 @@ I made this GitHub, to share some of my projects with you.
 A model that detects the existence of tumor in brain MRI images.  
 ![image](https://user-images.githubusercontent.com/67642255/143002834-f2f4c136-121c-4e73-b342-8181de70a878.png)
 
+# [Tumor Object Detection with YOLO-V5](https://github.com/Sedighe-Raeisi/Tumor_Object_Detection)
+| Original Image | Image with Detected Objects |   
+|     :---:      |     :---:      |    
+|![image](https://user-images.githubusercontent.com/67642255/152168246-0edd2560-b627-4146-8003-47bc50ecadfc.png)|![image](https://user-images.githubusercontent.com/67642255/152168288-b5122927-363e-4172-b2c3-af962159e762.png)|  
+
 # [Persian Digit Detection](https://github.com/Sedighe-Raeisi/Object_Detection_Persian_Digit_Detection)   
 ![image](https://user-images.githubusercontent.com/67642255/143003349-fd0997f9-d851-4d2c-844a-2ce93fd38d00.png)
 
