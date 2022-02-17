@@ -21,6 +21,11 @@ A model that detects the existence of tumor in brain MRI images.
 |     :---:      |     :---:      |    
 |![image](https://user-images.githubusercontent.com/67642255/152168246-0edd2560-b627-4146-8003-47bc50ecadfc.png)|![image](https://user-images.githubusercontent.com/67642255/152168288-b5122927-363e-4172-b2c3-af962159e762.png)|  
 
+# [Tumor Segmentation with MRCNN](https://github.com/Sedighe-Raeisi/Tumor-Segmentation-with-MRCNN)
+| Original Image | Image with Detected Objects |   
+|     :---:      |     :---:      |    
+|![image](https://user-images.githubusercontent.com/67642255/154489767-2747ca12-48ac-43a2-a4f0-60eef29dbe37.png)|![image](https://user-images.githubusercontent.com/67642255/154489716-8ad042cd-51c0-4ae4-970c-56f9716241e6.png)|
+
 # [Persian Digit Detection](https://github.com/Sedighe-Raeisi/Object_Detection_Persian_Digit_Detection)   
 ![image](https://user-images.githubusercontent.com/67642255/143003349-fd0997f9-d851-4d2c-844a-2ce93fd38d00.png)
 
@@ -36,8 +41,7 @@ A model that detects the existence of tumor in brain MRI images.
 <!--[![Alt Text](https://media1.giphy.com/media/112RGZxHnf9uTK/giphy.gif?cid=ecf05e471gydsjtkie7z4ltkxhcg76dognbkhnr2bbbotwlc&rid=giphy.gif&ct=g)]-->
 
  # [Mask R-CNN](https://github.com/Sedighe-Raeisi/Mask_R-CNN)    
-I implemented the mask R-CNN.     
-In the next step, I am going to train it on some data.     
+I implemented the mask R-CNN with its defined classes.    
 ![image](https://user-images.githubusercontent.com/67642255/145722412-580e64fd-1d0b-4aa9-a763-9e367d49f911.png)
 
 # [NLP Sentiment Analysis](https://github.com/Sedighe-Raeisi/NLP-Sentiment-Analysis-)  
