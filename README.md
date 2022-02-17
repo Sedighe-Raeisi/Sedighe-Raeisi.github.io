@@ -61,7 +61,7 @@ I implemented the mask R-CNN with its defined classes.
 | [Machine Learning with Python](https://mooc.ut.ac.ir/course/detail/49-/228-python)| [Deep Leaning and Neural Networks with Python](https://maktabino.com/product/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%b4%d8%a8%da%a9%d9%87-%d8%b9%d8%b5%d8%a8%db%8c-%d8%af%d8%b1-%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86-ann/) |
 |     :---:      |     :---:      |
 |![image](https://user-images.githubusercontent.com/67642255/145722436-7fdd033d-e7c9-45ee-9a0b-789225331103.png)|![image](https://user-images.githubusercontent.com/67642255/153899442-76f666bb-dc77-457a-91d0-9d5ec563712b.png)|
-|**Tehran University**|**Scientific Association of Automotive Engineering, Iran University of Science and Technology**|
+|**Tehran University**|**Maktabino, Iran University of Science and Technology**|
 
 <!--[![image](https://user-images.githubusercontent.com/67642255/143018913-e0823973-999f-4f96-9589-27c90639d7b7.png)]::-->
 
