@@ -21,7 +21,7 @@ A model that detects the existence of tumor in brain MRI images.
 |     :---:      |     :---:      |    
 |![image](https://user-images.githubusercontent.com/67642255/152168246-0edd2560-b627-4146-8003-47bc50ecadfc.png)|![image](https://user-images.githubusercontent.com/67642255/152168288-b5122927-363e-4172-b2c3-af962159e762.png)|  
 
-# [Tumor Segmentation with MRCNN](https://github.com/Sedighe-Raeisi/Tumor-Segmentation-with-MRCNN)
+# [Tumor Segmentation with Mask-RCNN](https://github.com/Sedighe-Raeisi/Tumor-Segmentation-with-MRCNN)
 | Original Image | Image with Detected Objects |   
 |     :---:      |     :---:      |    
 |![image](https://user-images.githubusercontent.com/67642255/154489767-2747ca12-48ac-43a2-a4f0-60eef29dbe37.png)|![image](https://user-images.githubusercontent.com/67642255/154489716-8ad042cd-51c0-4ae4-970c-56f9716241e6.png)|
