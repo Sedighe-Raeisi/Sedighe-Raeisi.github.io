@@ -9,7 +9,7 @@ I made this GitHub, to share some of my projects with you.
 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/sedighe-raeisi-684b9812b//) 
-
+[<img src='https://user-images.githubusercontent.com/67642255/155072574-1a9ab065-b585-42e0-b5ee-e6e0db3b8ce8.png' alt='Email' height='40'>](Sedighe.raeisi@gmail.com)
 
 
 # [Brain Tumor Detection Project](https://github.com/Sedighe-Raeisi/Brain-tumor-detection)
