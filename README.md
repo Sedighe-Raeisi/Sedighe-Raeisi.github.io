@@ -12,7 +12,7 @@ I made this GitHub, to share some of my projects with you.
 
 <!---[<img src='https://user-images.githubusercontent.com/67642255/155072574-1a9ab065-b585-42e0-b5ee-e6e0db3b8ce8.png' alt='Sedighe.raeisi@gmail.com' height='40'>](Sedighe.raeisi@gmail.com)[Dr. Sedighe Raeisi](mailto:sedighe.raeisi@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)--->
 # [karate club with Pytorch Geometric-Graph Neural Network ](https://github.com/Sedighe-Raeisi/karate_club_with_Pytorch_GCNConv)
-https://user-images.githubusercontent.com/67642255/177558928-61f58d4f-82a7-41dd-82d8-609b6c65dcfb.mp4
+https://user-images.githubusercontent.com/67642255/177563556-d9d4686d-e14b-440f-be23-a7a72c0ea520.mp4
 # [Brain Tumor Detection Project](https://github.com/Sedighe-Raeisi/Brain-tumor-detection)
 A model that detects the existence of tumor in brain MRI images.  
 ![image](https://user-images.githubusercontent.com/67642255/143002834-f2f4c136-121c-4e73-b342-8181de70a878.png)
