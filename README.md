@@ -16,11 +16,8 @@ I made this GitHub, to share some of my projects with you.
 
 | my image to graph function | SKlearn img_to_graph command|  
 |     :---:      |     :---:      |   
-|<img src="https://user-images.githubusercontent.com/67642255/187020211-192b29fa-69c2-4f38-a1ba-201f4b2db5db.png" width="300" />|  
-
-<img src="https://user-images.githubusercontent.com/67642255/187020227-ffc38864-f464-4511-97a0-0d070952977d.png" width="300" />
-  
-|     :---:      |     :---:      |    
+|<img src="https://user-images.githubusercontent.com/67642255/187020211-192b29fa-69c2-4f38-a1ba-201f4b2db5db.png" width="300" />|  <img src="https://user-images.githubusercontent.com/67642255/187020227-ffc38864-f464-4511-97a0-0d070952977d.png" width="300" />|
+|     ACC=0.961      |     ACC=0.971      |    
 
 # [karate club with Pytorch Geometric-Graph Neural Network ](https://github.com/Sedighe-Raeisi/karate_club_with_Pytorch_GCNConv)
 
