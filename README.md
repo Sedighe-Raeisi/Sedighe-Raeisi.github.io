@@ -16,9 +16,9 @@ I made this GitHub, to share some of my projects with you.
 
 | Original Image | Image with Detected Objects |   
 |     :---:      |     :---:      |   
-|![image](https://user-images.githubusercontent.com/67642255/187020211-192b29fa-69c2-4f38-a1ba-201f4b2db5db.png)|  
+|![image](https://user-images.githubusercontent.com/67642255/187020211-192b29fa-69c2-4f38-a1ba-201f4b2db5db.png){ width=25% }|  
 
-![image](https://user-images.githubusercontent.com/67642255/187020227-ffc38864-f464-4511-97a0-0d070952977d.png)
+![image](https://user-images.githubusercontent.com/67642255/187020227-ffc38864-f464-4511-97a0-0d070952977d.png){ width=25% }
 | my image to graph function | SKlearn img_to_graph command|   
 |     :---:      |     :---:      |    
 
