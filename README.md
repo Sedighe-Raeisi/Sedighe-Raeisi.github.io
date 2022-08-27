@@ -14,12 +14,12 @@ I made this GitHub, to share some of my projects with you.
 
 # [Mnist images classification with graph classification](https://github.com/Sedighe-Raeisi/MNIST_with_Graph_Classification)
 
-| Original Image | Image with Detected Objects |   
+| my image to graph function | SKlearn img_to_graph command|  
 |     :---:      |     :---:      |   
-|![image](https://user-images.githubusercontent.com/67642255/187020211-192b29fa-69c2-4f38-a1ba-201f4b2db5db.png){ width=25% }|  
+|<img src="https://user-images.githubusercontent.com/67642255/187020211-192b29fa-69c2-4f38-a1ba-201f4b2db5db.png" width="300" />|  
 
-![image](https://user-images.githubusercontent.com/67642255/187020227-ffc38864-f464-4511-97a0-0d070952977d.png){ width=25% }
-| my image to graph function | SKlearn img_to_graph command|   
+<img src="https://user-images.githubusercontent.com/67642255/187020227-ffc38864-f464-4511-97a0-0d070952977d.png" width="300" />
+  
 |     :---:      |     :---:      |    
 
 # [karate club with Pytorch Geometric-Graph Neural Network ](https://github.com/Sedighe-Raeisi/karate_club_with_Pytorch_GCNConv)
