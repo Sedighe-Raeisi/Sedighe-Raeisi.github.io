@@ -59,7 +59,7 @@ A model that detects the existence of tumor in brain MRI images.
 I implemented the mask R-CNN with its defined classes.    
 ![image](https://user-images.githubusercontent.com/67642255/145722412-580e64fd-1d0b-4aa9-a763-9e367d49f911.png)
 
-# [NLP Sentiment Analysis](https://github.com/Sedighe-Raeisi/NLP-Sentiment-Analysis-)  
+# [NLP Sentiment Analysis-English Texts](https://github.com/Sedighe-Raeisi/NLP-Sentiment-Analysis-)  
   
  
 | Model Name| Tf-Idf | Embedding | Pre-trained Glove | BERT |   
@@ -67,7 +67,7 @@ I implemented the mask R-CNN with its defined classes.
 |Confusion Matrix|![image](https://user-images.githubusercontent.com/67642255/147255994-86dfae0f-117d-4053-a3b9-955a3866bbe8.png)|![image](https://user-images.githubusercontent.com/67642255/147254826-b1667de3-707b-4442-b976-790702c3c130.png)| ![image](https://user-images.githubusercontent.com/67642255/147206246-8aa4486c-25a2-43b2-860f-ff471ed59ec4.png) |![image](https://user-images.githubusercontent.com/67642255/147358075-16f9fd97-7729-40ca-a081-9bd85801a698.png)|  
 | Accuracy | .72 | .76 | .77 | .79 |
 
-# [NLP for persian texts](https://github.com/Sedighe-Raeisi/NLP_with_Dijikala_dataset)
+# [NLP Sentiment Analysis-Persian Texts](https://github.com/Sedighe-Raeisi/NLP_with_Dijikala_dataset)
 
 | Model Name| Random Forest Classifier  | SGD |     
 |     :---:      |     :---:      |     :---:      |  
