@@ -12,7 +12,7 @@ I made this GitHub, to share some of my projects with you.
 
 <!---[<img src='https://user-images.githubusercontent.com/67642255/155072574-1a9ab065-b585-42e0-b5ee-e6e0db3b8ce8.png' alt='Sedighe.raeisi@gmail.com' height='40'>](Sedighe.raeisi@gmail.com)[Dr. Sedighe Raeisi](mailto:sedighe.raeisi@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)--->
 
-# [Link Prediction with GCN](https://github.com/Sedighe-Raeisi/Link-Prediction-with-Pytorch-GCN)
+# [Link Prediction with PyG GCN](https://github.com/Sedighe-Raeisi/Link-Prediction-with-Pytorch-GCN)
 
 
 <img width="300" src="https://user-images.githubusercontent.com/67642255/198948936-f565ee08-7cbb-46f5-8194-b7660f7455b6.mp4"/>
