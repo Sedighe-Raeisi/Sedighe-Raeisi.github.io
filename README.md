@@ -15,7 +15,7 @@ I made this GitHub, to share some of my projects with you.
 # [Link Prediction with GCN](https://github.com/Sedighe-Raeisi/Link-Prediction-with-Pytorch-GCN)
 
 
-https://user-images.githubusercontent.com/67642255/198948936-f565ee08-7cbb-46f5-8194-b7660f7455b6.mp4
+<img width="300" src="https://user-images.githubusercontent.com/67642255/198948936-f565ee08-7cbb-46f5-8194-b7660f7455b6.mp4"/>
 
 
 # [Mnist images classification with graph classification](https://github.com/Sedighe-Raeisi/MNIST_with_Graph_Classification)
