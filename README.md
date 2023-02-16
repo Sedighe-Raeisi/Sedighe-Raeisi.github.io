@@ -54,7 +54,7 @@ A model that detects the existence of tumor in brain MRI images.
 ![image](https://user-images.githubusercontent.com/67642255/143004823-9b0ba573-dedf-455d-bc8b-479217910f8d.png)   
 
 
-# [Stock Market Predicting with LSTM](https://github.com/Sedighe-Raeisi/Stock-Market-Predicting-with-LSTM)   
+# [Stock Market Time Series Forecasting](https://github.com/Sedighe-Raeisi/Stock-Market-Predicting-with-LSTM)   
  
  ![image](https://user-images.githubusercontent.com/67642255/145201142-8f9b28ac-d3bf-4a95-ac0a-121e6dd61b25.png)
 
