@@ -1,8 +1,4 @@
 ### Hi there 👋, my name is Sedighe Raeisi
-
-![68747470733a2f2f6d656469612d657870312e6c6963646e2e636f6d2f646d732f696d6167652f43344531364151486458645f694d716b4a6c672f70726f66696c652d646973706c61796261636b67726f756e64696d6167652](https://github.com/user-attachments/assets/f8912448-bf1c-4515-aaba-b73babf2a1f8)
-
-
 I made this GitHub, to share some of my projects with you.
 
 **Skills**: Python / Fortran / C#
