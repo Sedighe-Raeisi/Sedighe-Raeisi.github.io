@@ -1,5 +1,5 @@
 ### Hi there 👋, my name is Sedighe Raeisi
-I made this GitHub, to share some of my projects with you.
+Here, I share some of my projects with you.
 
 **Skills**: Python / Fortran / C#
 
