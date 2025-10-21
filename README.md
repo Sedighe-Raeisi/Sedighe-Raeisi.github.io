@@ -1,4 +1,4 @@
-### Hi there 👋, my name is Sedighe Raeisi
+### Hi there 👋, My name is Sedighe Raeisi
 Here are the highlights of my GitHub. 
 
 **Skills**: Python / Fortran / C#
