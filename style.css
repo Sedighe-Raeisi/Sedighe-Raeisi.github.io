@@ -1,107 +1,246 @@
-/* Reset basic browser styles for consistency */
+/* -------------------------------------------------------------------
+   Global Reset and Layout
+------------------------------------------------------------------- */
+:root {
+    --primary-color: #007bff; /* Professional Blue */
+    --secondary-color: #343a40; /* Dark text/headers */
+    --background-light: #f4f7f9;
+    --card-background: #ffffff;
+    --border-color: #e9ecef;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply a clean font and basic background to the entire page */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Use a clean, professional font stack */
+    font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f8f8; /* Very light gray background */
+    color: var(--secondary-color);
+    background-color: var(--background-light);
     display: flex;
-    justify-content: center; /* Center the container horizontally */
-    padding: 40px 20px; /* Add some padding around the content */
+    justify-content: center;
+    padding: 30px 15px;
+    min-height: 100vh;
 }
 
-/* Main container to limit width and center content */
 .container {
     width: 100%;
-    max-width: 750px; /* A good maximum width for readability */
-    background-color: #fff; /* White background for the main content box */
+    max-width: 960px; /* Wider container for more complex content */
+    background-color: var(--card-background);
     padding: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
-    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
 }
 
-/* Header styling */
+/* -------------------------------------------------------------------
+   Header and Contact
+------------------------------------------------------------------- */
 header {
-    text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid var(--primary-color);
 }
 
 header h1 {
     font-size: 2.5em;
-    color: #007bff; /* A professional blue for emphasis */
+    font-weight: 800;
+    color: var(--secondary-color);
     margin-bottom: 5px;
 }
 
 .tagline {
-    font-size: 1.1em;
-    color: #666;
-    font-style: italic;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 10px;
 }
 
-/* Section styling (About, Projects, etc.) */
-section {
-    margin-bottom: 30px;
-}
-
-section h2 {
-    font-size: 1.5em;
-    color: #333;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-}
-
-/* Link/Navigation styling */
-.social-links {
-    display: flex;
-    justify-content: center; /* Center the links */
-    gap: 20px; /* Space between the links */
+.skills {
+    font-size: 1em;
+    color: #6c757d;
     margin-bottom: 20px;
 }
 
-.social-links a, .project-list a {
-    text-decoration: none;
-    color: #007bff; /* Use the same professional blue */
-    font-weight: bold;
-    transition: color 0.2s;
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 
-.social-links a:hover, .project-list a:hover {
-    color: #0056b3; /* Darker blue on hover */
-    text-decoration: underline;
+.contact-links img {
+    transition: transform 0.2s ease, filter 0.2s ease;
 }
 
-/* Project list styling */
-.project-list {
-    list-style: none; /* Remove bullet points */
-    padding-left: 0;
+.contact-links a:hover img {
+    transform: translateY(-3px) scale(1.05);
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
-.project-list li {
-    margin-bottom: 8px;
+/* -------------------------------------------------------------------
+   Project and Content Sections
+------------------------------------------------------------------- */
+section h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin-bottom: 25px;
+    border-left: 5px solid var(--primary-color);
     padding-left: 15px;
-    position: relative;
 }
 
-.project-list li::before {
-    content: "•"; /* Custom bullet point */
-    color: #007bff;
-    font-size: 1.2em;
-    position: absolute;
-    left: 0;
+.project-card {
+    background-color: #fcfcfc;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: box-shadow 0.3s ease;
 }
 
-/* Footer styling */
+.project-card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.project-media, .table-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 10px 0;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.media-container {
+    width: 100%;
+    overflow: hidden; /* Ensure media stays within bounds */
+}
+
+/* Specific video styling */
+.video-frame {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+video {
+    width: 100%;
+}
+
+
+/* -------------------------------------------------------------------
+   Table Styling (Responsive and Clean)
+------------------------------------------------------------------- */
+.responsive-table-container {
+    overflow-x: auto; /* Allows horizontal scrolling on small screens */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+th, td {
+    padding: 12px 10px;
+    border-right: 1px solid var(--border-color);
+}
+
+th {
+    background-color: #eef2f5;
+    color: var(--secondary-color);
+    font-weight: 600;
+    border-bottom: 2px solid #ced4da;
+    white-space: nowrap; /* Prevents long header names from wrapping */
+}
+
+td:last-child, th:last-child {
+    border-right: none;
+}
+
+.table-image {
+    max-width: 200px; /* Limit image size in tables */
+    margin: 0 auto;
+}
+
+.accuracy-row td {
+    font-weight: bold;
+    color: var(--primary-color);
+    background-color: #f8f9fa;
+}
+
+.confusion-matrix-row td {
+    padding: 5px 10px;
+}
+
+/* Course Table Specifics */
+.course-name-row td {
+    font-weight: 600;
+    font-style: italic;
+    background-color: #fff;
+}
+.online-courses .table-image {
+    max-width: 100%;
+}
+
+
+/* -------------------------------------------------------------------
+   Footer
+------------------------------------------------------------------- */
 footer {
     text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
-    font-size: 0.9em;
+    padding-top: 25px;
+    margin-top: 40px;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.85em;
     color: #999;
+}
+
+/* -------------------------------------------------------------------
+   Responsive Adjustments (Mobile First)
+------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        box-shadow: none; /* Less shadow on small screens */
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .project-title {
+        font-size: 1.25em;
+    }
+
+    /* Stack table content vertically for better mobile reading if possible, 
+       but keeping scroll overflow for large comparison tables */
+    .responsive-table-container {
+        border: none;
+    }
+
+    table {
+        min-width: 500px; /* Ensure tables don't compress too much */
+    }
 }
