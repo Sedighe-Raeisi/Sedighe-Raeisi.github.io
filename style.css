@@ -1,0 +1,107 @@
+/* Reset basic browser styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a clean font and basic background to the entire page */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Use a clean, professional font stack */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8; /* Very light gray background */
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    padding: 40px 20px; /* Add some padding around the content */
+}
+
+/* Main container to limit width and center content */
+.container {
+    width: 100%;
+    max-width: 750px; /* A good maximum width for readability */
+    background-color: #fff; /* White background for the main content box */
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #007bff; /* A professional blue for emphasis */
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 1.1em;
+    color: #666;
+    font-style: italic;
+}
+
+/* Section styling (About, Projects, etc.) */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Link/Navigation styling */
+.social-links {
+    display: flex;
+    justify-content: center; /* Center the links */
+    gap: 20px; /* Space between the links */
+    margin-bottom: 20px;
+}
+
+.social-links a, .project-list a {
+    text-decoration: none;
+    color: #007bff; /* Use the same professional blue */
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.social-links a:hover, .project-list a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+/* Project list styling */
+.project-list {
+    list-style: none; /* Remove bullet points */
+    padding-left: 0;
+}
+
+.project-list li {
+    margin-bottom: 8px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.project-list li::before {
+    content: "•"; /* Custom bullet point */
+    color: #007bff;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #999;
+}
