@@ -4,247 +4,332 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sedighe Raeisi - Data Scientist Portfolio</title>
+    <!-- Load Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Apply the Inter font globally */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            color: #1f2937; /* Dark text for contrast */
+        }
+        /* Custom styles for media containers that hold videos/tables/images */
+        .media-container {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 0.75rem; /* Rounded corners for media */
+        }
+        .project-media {
+            width: 100%;
+            height: auto;
+            object-fit: contain; /* Ensure media is visible within its bounds */
+            border-radius: 0.75rem;
+        }
+        .table-image {
+            width: 100%;
+            height: auto;
+            max-width: 200px; /* Constrain individual table images */
+            margin: 0 auto;
+        }
+        /* Style the tables for a cleaner look */
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin-top: 1rem;
+            text-align: center;
+        }
+        th, td {
+            padding: 0.75rem;
+            border: 1px solid #e5e7eb;
+        }
+        th {
+            background-color: #3b82f6; /* Blue header */
+            color: white;
+            font-weight: 600;
+        }
+        tr:nth-child(even) {
+            background-color: #f3f4f6;
+        }
+        .accuracy-row td {
+            font-weight: 600;
+            background-color: #d1fae5; /* Light green background for accuracy row */
+            color: #065f46;
+        }
+        .course-name-row td {
+            background-color: #dbeafe; /* Light blue background for course name row */
+            font-size: 0.875rem;
+        }
+        /* Specific centering for Project 5 Image (The problematic one) */
+        .project-5-image {
+            max-width: 400px;
+            margin: 1rem auto;
+            display: block;
+        }
+    </style>
 </head>
-<body>
-    <div class="container">
+<body class="p-4 md:p-8">
+    <div class="max-w-7xl mx-auto bg-white shadow-2xl rounded-3xl p-6 md:p-12">
+        
         <!-- HEADER AND CONTACT SECTION -->
-        <header class="text-center">
-            <h1>Hi there 👋, My name is Sedighe Raeisi</h1>
-            <h2 class="tagline">Data Scientist | Graph Neural Networks | Machine Learning in Physics</h2>
-            <p class="skills"><strong>Skills:</strong> Python / Fortran / C#</p>
+        <header class="text-center pb-8 border-b-2 border-gray-200 mb-8">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-blue-800">Hi there 👋, My name is Sedighe Raeisi</h1>
+            <h2 class="tagline text-xl md:text-2xl font-light text-gray-600 mt-2 mb-4">Data Scientist | Graph Neural Networks | Machine Learning in Physics</h2>
+            <p class="skills text-lg font-medium text-gray-700"><strong>Skills:</strong> Python / Fortran / C#</p>
             
-            <div class="contact-links">
-                <a href="https://www.linkedin.com/in/sedighe-raeisi-684b9812b///" target="_blank" title="LinkedIn">
+            <div class="contact-links mt-6 flex justify-center space-x-6">
+                <a href="https://www.linkedin.com/in/sedighe-raeisi-684b9812b///" target="_blank" title="LinkedIn" class="hover:opacity-75 transition duration-300">
                     <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='LinkedIn' height='30'>
                 </a>
-                <a href="mailto:sedighe.raeisi@gmail.com" title="Email: sedighe.raeisi@gmail.com">
+                <a href="mailto:sedighe.raeisi@gmail.com" title="Email: sedighe.raeisi@gmail.com" class="hover:opacity-75 transition duration-300">
                     <img src="https://user-images.githubusercontent.com/67642255/155072574-1a9ab065-b585-42e0-b5ee-e6e0db3b8ce8.png" alt='Email' height='30'/>
                 </a>
             </div>
         </header>
 
+        <!-- PROJECTS SECTION -->
         <section class="projects-list">
-            <h3>Highlights of My GitHub Projects</h3>
+            <h3 class="text-3xl font-bold text-gray-800 mb-8 border-l-4 border-blue-500 pl-4">Highlights of My GitHub Projects</h3>
             
-            <!-- PROJECT 1: Individual-Based Model Discovery -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/Individual_Based_Sindy" target="_blank">
-                    <h2 class="project-title">Individual-Based Model Discovery with Hierarchical Bayesian SINDy</h2>
-                </a>
-                <img src="https://github.com/user-attachments/assets/29de12ae-1420-4d37-8897-98b3f3b98495" alt="Individual Based Sindy Visualization" class="project-media large-image" width="100%">
-            </article>
+            <!-- Grid container for projects (1 column on mobile, 2 on medium, 3 on large) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+                <!-- PROJECT 1: Individual-Based Model Discovery -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
+                    <a href="https://github.com/Sedighe-Raeisi/Individual_Based_Sindy" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Individual-Based Model Discovery with Hierarchical Bayesian SINDy</h2>
+                    </a>
+                    <div class="media-container">
+                        <img src="https://github.com/user-attachments/assets/29de12ae-1420-4d37-8897-98b3f3b98495" alt="Individual Based Sindy Visualization" class="project-media" />
+                    </div>
+                </article>
 
-            <!-- PROJECT 2: Link Prediction with PyG GCN -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/Link-Prediction-with-Pytorch-GCN" target="_blank">
-                    <h2 class="project-title">Link Prediction with PyG GCN</h2>
-                </a>
-                <div class="media-container video-frame">
-                    <video controls autoplay loop muted class="project-media">
-                        <source src="https://user-images.githubusercontent.com/67642255/198948936-f565ee08-7cbb-46f5-8194-b7660f7455b6.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </article>
+                <!-- PROJECT 2: Link Prediction with PyG GCN -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
+                    <a href="https://github.com/Sedighe-Raeisi/Link-Prediction-with-Pytorch-GCN" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Link Prediction with PyG GCN</h2>
+                    </a>
+                    <div class="media-container video-frame">
+                        <video controls autoplay loop muted class="project-media">
+                            <source src="https://user-images.githubusercontent.com/67642255/198948936-f565ee08-7cbb-46f5-8194-b7660f7455b6.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </article>
 
-            <!-- PROJECT 3: Mnist images classification with graph classification -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/MNIST_with_Graph_Classification" target="_blank">
-                    <h2 class="project-title">Mnist images classification with graph classification</h2>
-                </a>
-                <div class="responsive-table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>My Image-to-Graph Function</th>
-                                <th>SKlearn `img_to_graph` Command</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><img src="https://user-images.githubusercontent.com/67642255/187020211-192b29fa-69c2-4f38-a1ba-201f4b2db5db.png" alt="My function visualization" class="table-image" width="300" /></td>
-                                <td><img src="https://user-images.githubusercontent.com/67642255/187020227-ffc38864-f464-4511-97a0-0d070952977d.png" alt="SKlearn visualization" class="table-image" width="300" /></td>
-                            </tr>
-                            <tr class="accuracy-row">
-                                <td>ACC=0.961</td>
-                                <td>ACC=0.971</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </article>
+                <!-- PROJECT 3: Mnist images classification with graph classification -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02] col-span-1 md:col-span-2 lg:col-span-1">
+                    <a href="https://github.com/Sedighe-Raeisi/MNIST_with_Graph_Classification" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Mnist images classification with graph classification</h2>
+                    </a>
+                    <div class="responsive-table-container overflow-x-auto">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>My Image-to-Graph Function</th>
+                                    <th>SKlearn `img_to_graph` Command</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="https://user-images.githubusercontent.com/67642255/187020211-192b29fa-69c2-4f38-a1ba-201f4b2db5db.png" alt="My function visualization" class="table-image" /></td>
+                                    <td><img src="https://user-images.githubusercontent.com/67642255/187020227-ffc38864-f464-4511-97a0-0d070952977d.png" alt="SKlearn visualization" class="table-image" /></td>
+                                </tr>
+                                <tr class="accuracy-row">
+                                    <td>ACC=0.961</td>
+                                    <td>ACC=0.971</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
 
-            <!-- PROJECT 4: karate club with Pytorch Geometric-Graph Neural Network -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/karate_club_with_Pytorch_GCNConv" target="_blank">
-                    <h2 class="project-title">karate club with Pytorch Geometric-Graph Neural Network</h2>
-                </a>
-                <div class="media-container video-frame">
-                    <video controls autoplay loop muted class="project-media">
-                        <source src="https://user-images.githubusercontent.com/67642255/177564318-6848a91f-27cd-4118-ac49-82f26e32caf4.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </article>
+                <!-- PROJECT 4: karate club with Pytorch Geometric-Graph Neural Network -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
+                    <a href="https://github.com/Sedighe-Raeisi/karate_club_with_Pytorch_GCNConv" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">karate club with Pytorch Geometric-Graph Neural Network</h2>
+                    </a>
+                    <div class="media-container video-frame">
+                        <video controls autoplay loop muted class="project-media">
+                            <source src="https://user-images.githubusercontent.com/67642255/177564318-6848a91f-27cd-4118-ac49-82f26e32caf4.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </article>
 
-            <!-- PROJECT 5: Brain Tumor Detection Project -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/Brain-tumor-detection" target="_blank">
-                    <h2 class="project-title">Brain Tumor Detection Project</h2>
-                </a>
-                <p>A model that detects the existence of tumor in brain MRI images.</p>
-                <!-- Image updated to remove large-image class and set max-width to 400px -->
-                <img src="https://user-images.githubusercontent.com/67642255/143002834-f2f4c136-121c-4e73-b342-8181de70a878.png" alt="Brain Tumor Detection Image" class="project-media" style="max-width: 400px;">
-            </article>
+                <!-- PROJECT 5: Brain Tumor Detection Project - **Fixed Image Sizing** -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02] flex flex-col items-center text-center">
+                    <a href="https://github.com/Sedighe-Raeisi/Brain-tumor-detection" target="_blank" class="block w-full">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Brain Tumor Detection Project</h2>
+                    </a>
+                    <p class="mb-4 text-gray-600">A model that detects the existence of tumor in brain MRI images.</p>
+                    <!-- Apply specific max-width and centering for smaller display -->
+                    <img src="https://user-images.githubusercontent.com/67642255/143002834-f2f4c136-121c-4e73-b342-8181de70a878.png" 
+                         alt="Brain Tumor Detection Image" 
+                         class="project-media project-5-image max-w-xs"
+                         onerror="this.onerror=null; this.src='https://placehold.co/400x300/FCA5A5/DC2626?text=Image+Load+Error';"
+                    >
+                </article>
 
-            <!-- PROJECT 6: Tumor Object Detection with YOLO-V5 -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/Tumor_Object_Detection" target="_blank">
-                    <h2 class="project-title">Tumor Object Detection with YOLO-V5</h2>
-                </a>
-                <div class="responsive-table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Original Image</th>
-                                <th>Image with Detected Objects</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><img src="https://user-images.githubusercontent.com/67642255/152168246-0edd2560-b627-4146-8003-47bc50ecadfc.png" alt="Original Image" class="table-image" width="300" /></td>
-                                <td><img src="https://user-images.githubusercontent.com/67642255/152168288-b5122927-363e-4172-b2c3-af962159e762.png" alt="Detected Objects" class="table-image" width="300" /></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </article>
+                <!-- PROJECT 6: Tumor Object Detection with YOLO-V5 -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
+                    <a href="https://github.com/Sedighe-Raeisi/Tumor_Object_Detection" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Tumor Object Detection with YOLO-V5</h2>
+                    </a>
+                    <div class="responsive-table-container overflow-x-auto">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Original Image</th>
+                                    <th>Image with Detected Objects</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="https://user-images.githubusercontent.com/67642255/152168246-0edd2560-b627-4146-8003-47bc50ecadfc.png" alt="Original Image" class="table-image" /></td>
+                                    <td><img src="https://user-images.githubusercontent.com/67642255/152168288-b5122927-363e-4172-b2c3-af962159e762.png" alt="Detected Objects" class="table-image" /></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+                
+                <!-- PROJECT 7: Tumor Segmentation with Mask-RCNN -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
+                    <a href="https://github.com/Sedighe-Raeisi/Tumor-Segmentation-with-MRCNN" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Tumor Segmentation with Mask-RCNN</h2>
+                    </a>
+                    <div class="responsive-table-container overflow-x-auto">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Original Image</th>
+                                    <th>Image with Segmented Objects</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="https://user-images.githubusercontent.com/67642255/154489767-2747ca12-48ac-43a2-a4f0-60eef29dbe37.png" alt="Original Image" class="table-image" /></td>
+                                    <td><img src="https://user-images.githubusercontent.com/67642255/154489716-8ad042cd-51c0-4ae4-970c-56f9716241e6.png" alt="Segmented Objects" class="table-image" /></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
 
-            <!-- PROJECT 7: Tumor Segmentation with Mask-RCNN -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/Tumor-Segmentation-with-MRCNN" target="_blank">
-                    <h2 class="project-title">Tumor Segmentation with Mask-RCNN</h2>
-                </a>
-                <div class="responsive-table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Original Image</th>
-                                <th>Image with Segmented Objects</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><img src="https://user-images.githubusercontent.com/67642255/154489767-2747ca12-48ac-43a2-a4f0-60eef29dbe37.png" alt="Original Image" class="table-image" width="300" /></td>
-                                <td><img src="https://user-images.githubusercontent.com/67642255/154489716-8ad042cd-51c0-4ae4-970c-56f971c241e6.png" alt="Segmented Objects" class="table-image" width="300" /></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </article>
+                <!-- PROJECT 8: Persian Digit Detection -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
+                    <a href="https://github.com/Sedighe-Raeisi/Object_Detection_Persian_Digit_Detection" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Persian Digit Detection</h2>
+                    </a>
+                    <div class="media-container">
+                        <img src="https://user-images.githubusercontent.com/67642255/143003349-fd0997f9-d851-4d2c-844a-2ce93fd38d00.png" alt="Persian Digit Detection" class="project-media" />
+                    </div>
+                </article>
 
-            <!-- PROJECT 8: Persian Digit Detection -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/Object_Detection_Persian_Digit_Detection" target="_blank">
-                    <h2 class="project-title">Persian Digit Detection</h2>
-                </a>
-                <img src="https://user-images.githubusercontent.com/67642255/143003349-fd0997f9-d851-4d2c-844a-2ce93fd38d00.png" alt="Persian Digit Detection" class="project-media large-image" width="100%">
-            </article>
+                <!-- PROJECT 9: Analysis of Value of Bank Customers -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
+                    <a href="https://github.com/Sedighe-Raeisi/Analysis-of-value-of-bank-customers" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Analysis of Value of Bank Customers</h2>
+                    </a>
+                    <div class="media-container">
+                        <img src="https://user-images.githubusercontent.com/67642255/143004823-9b0ba573-dedf-455d-bc8b-479217910f8d.png" alt="Bank Customer Analysis" class="project-media" />
+                    </div>
+                </article>
 
-            <!-- PROJECT 9: Analysis of Value of Bank Customers -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/Analysis-of-value-of-bank-customers" target="_blank">
-                    <h2 class="project-title">Analysis of Value of Bank Customers</h2>
-                </a>
-                <img src="https://user-images.githubusercontent.com/67642255/143004823-9b0ba573-dedf-455d-bc8b-479217910f8d.png" alt="Bank Customer Analysis" class="project-media large-image" width="100%">
-            </article>
+                <!-- PROJECT 10: Stock Market Time Series Forecasting -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
+                    <a href="https://github.com/Sedighe-Raeisi/Stock-Market-Predicting-with-LSTM" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Stock Market Time Series Forecasting</h2>
+                    </a>
+                    <div class="media-container">
+                        <img src="https://user-images.githubusercontent.com/67642255/145201142-8f9b28ac-d3bf-4a95-ac0a-121e6dd61b25.png" alt="Stock Market Forecasting" class="project-media" />
+                    </div>
+                </article>
 
-            <!-- PROJECT 10: Stock Market Time Series Forecasting -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/Stock-Market-Predicting-with-LSTM" target="_blank">
-                    <h2 class="project-title">Stock Market Time Series Forecasting</h2>
-                </a>
-                <img src="https://user-images.githubusercontent.com/67642255/145201142-8f9b28ac-d3bf-4a95-ac0a-121e6dd61b25.png" alt="Stock Market Forecasting" class="project-media large-image" width="100%">
-            </article>
+                <!-- PROJECT 11: Mask R-CNN -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
+                    <a href="https://github.com/Sedighe-Raeisi/Mask_R-CNN" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Mask R-CNN</h2>
+                    </a>
+                    <p class="mb-4 text-gray-600">I implemented the mask R-CNN with its defined classes.</p>
+                    <div class="media-container">
+                        <img src="https://user-images.githubusercontent.com/67642255/145722412-580e64fd-1d0b-4aa9-a763-9e367d49f911.png" alt="Mask R-CNN Implementation" class="project-media" />
+                    </div>
+                </article>
 
-            <!-- PROJECT 11: Mask R-CNN -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/Mask_R-CNN" target="_blank">
-                    <h2 class="project-title">Mask R-CNN</h2>
-                </a>
-                <p>I implemented the mask R-CNN with its defined classes.</p>
-                <img src="https://user-images.githubusercontent.com/67642255/145722412-580e64fd-1d0b-4aa9-a763-9e367d49f911.png" alt="Mask R-CNN Implementation" class="project-media large-image" width="100%">
-            </article>
+                <!-- PROJECT 12: NLP Sentiment Analysis-English Texts -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02] col-span-1 md:col-span-2 lg:col-span-3">
+                    <a href="https://github.com/Sedighe-Raeisi/NLP-Sentiment-Analysis-" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">NLP Sentiment Analysis - English Texts</h2>
+                    </a>
+                    <div class="responsive-table-container overflow-x-auto">
+                        <table class="min-w-full">
+                            <thead>
+                                <tr>
+                                    <th>Model Name</th>
+                                    <th>Tf-Idf</th>
+                                    <th>Embedding</th>
+                                    <th>Pre-trained Glove</th>
+                                    <th>BERT</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="confusion-matrix-row">
+                                    <td class="whitespace-nowrap">Confusion Matrix</td>
+                                    <td><img src="https://user-images.githubusercontent.com/67642255/147255994-86dfae0f-117d-4053-a3b9-955a3866bbe8.png" alt="Tf-Idf Matrix" class="table-image" /></td>
+                                    <td><img src="https://user-images.githubusercontent.com/67642255/147254826-b1667de3-707b-4442-b976-790702c3c130.png" alt="Embedding Matrix" class="table-image" /></td>
+                                    <td><img src="https://user-images.githubusercontent.com/67642255/147206246-8aa4486c-25a2-43b2-860f-ff471ed59ec4.png" alt="Glove Matrix" class="table-image" /></td>
+                                    <td><img src="https://user-images.githubusercontent.com/67642255/147358075-16f9fd97-7729-40ca-a081-9bd85801a698.png" alt="BERT Matrix" class="table-image" /></td>
+                                </tr>
+                                <tr class="accuracy-row">
+                                    <td>Accuracy</td>
+                                    <td>0.72</td>
+                                    <td>0.76</td>
+                                    <td>0.77</td>
+                                    <td>0.79</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
 
-            <!-- PROJECT 12: NLP Sentiment Analysis-English Texts -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/NLP-Sentiment-Analysis-" target="_blank">
-                    <h2 class="project-title">NLP Sentiment Analysis - English Texts</h2>
-                </a>
-                <div class="responsive-table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Model Name</th>
-                                <th>Tf-Idf</th>
-                                <th>Embedding</th>
-                                <th>Pre-trained Glove</th>
-                                <th>BERT</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="confusion-matrix-row">
-                                <td>Confusion Matrix</td>
-                                <td><img src="https://user-images.githubusercontent.com/67642255/147255994-86dfae0f-117d-4053-a3b9-955a3866bbe8.png" alt="Tf-Idf Matrix" class="table-image" /></td>
-                                <td><img src="https://user-images.githubusercontent.com/67642255/147254826-b1667de3-707b-4442-b976-790702c3c130.png" alt="Embedding Matrix" class="table-image" /></td>
-                                <td><img src="https://user-images.githubusercontent.com/67642255/147206246-8aa4486c-25a2-43b2-860f-ff471ed59ec4.png" alt="Glove Matrix" class="table-image" /></td>
-                                <td><img src="https://user-images.githubusercontent.com/67642255/147358075-16f9fd97-7729-40ca-a081-9bd85801a698.png" alt="BERT Matrix" class="table-image" /></td>
-                            </tr>
-                            <tr class="accuracy-row">
-                                <td>Accuracy</td>
-                                <td>0.72</td>
-                                <td>0.76</td>
-                                <td>0.77</td>
-                                <td>0.79</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </article>
-
-            <!-- PROJECT 13: NLP Sentiment Analysis-Persian Texts -->
-            <article class="project-card">
-                <a href="https://github.com/Sedighe-Raeisi/NLP_with_Dijikala_dataset" target="_blank">
-                    <h2 class="project-title">NLP Sentiment Analysis - Persian Texts</h2>
-                </a>
-                <div class="responsive-table-container small-table">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Model Name</th>
-                                <th>Random Forest Classifier</th>
-                                <th>SGD</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="accuracy-row">
-                                <td>Accuracy</td>
-                                <td>0.80</td>
-                                <td>0.79</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </article>
-
+                <!-- PROJECT 13: NLP Sentiment Analysis-Persian Texts -->
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
+                    <a href="https://github.com/Sedighe-Raeisi/NLP_with_Dijikala_dataset" target="_blank" class="block">
+                        <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">NLP Sentiment Analysis - Persian Texts</h2>
+                    </a>
+                    <div class="responsive-table-container overflow-x-auto small-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Model Name</th>
+                                    <th>Random Forest Classifier</th>
+                                    <th>SGD</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="accuracy-row">
+                                    <td>Accuracy</td>
+                                    <td>0.80</td>
+                                    <td>0.79</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <!-- ONLINE COURSES SECTION -->
-        <section class="online-courses">
-            <h3>My Online Courses</h3>
-            <div class="responsive-table-container">
+        <section class="online-courses mt-12 pt-8 border-t-2 border-gray-200">
+            <h3 class="text-3xl font-bold text-gray-800 mb-8 border-l-4 border-blue-500 pl-4">My Online Courses</h3>
+            <div class="responsive-table-container overflow-x-auto max-w-2xl mx-auto">
                 <table>
                     <thead>
                         <tr>
@@ -274,7 +359,8 @@
             </div>
         </section>
 
-        <footer>
+        <!-- FOOTER -->
+        <footer class="mt-12 pt-4 text-center text-sm text-gray-500 border-t border-gray-100">
             <p>&copy; 2025 Sedighe Raeisi. Content based on GitHub README.</p>
         </footer>
     </div>
