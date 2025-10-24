@@ -11,7 +11,7 @@
         /* Apply the Inter font globally */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f7f7f7;
+            background-color: #f1f5f9; /* Light slate background for subtle contrast */
             color: #1f2937; /* Dark text for contrast */
         }
         /* Custom styles for media containers that hold videos/tables/images */
@@ -43,32 +43,35 @@
             border-spacing: 0;
             margin-top: 1rem;
             text-align: center;
+            border-radius: 0.75rem; /* Rounded corners for the entire table */
+            overflow: hidden; /* Important for containing rounded corners */
         }
         th, td {
             padding: 0.75rem;
             border: 1px solid #e5e7eb;
         }
         th {
-            background-color: #3b82f6; /* Blue header */
+            background-color: #1e3a8a; /* Darker blue header */
             color: white;
             font-weight: 600;
         }
         tr:nth-child(even) {
-            background-color: #f3f4f6;
+            background-color: #f9fafb; /* Lighter stripe for even rows */
         }
         .accuracy-row td {
-            font-weight: 600;
+            font-weight: 700;
             background-color: #d1fae5; /* Light green background for accuracy row */
             color: #065f46;
         }
         .course-name-row td {
-            background-color: #dbeafe; /* Light blue background for course name row */
+            background-color: #eff6ff; /* Very light blue background for course name row */
             font-size: 0.875rem;
+            font-weight: 600;
         }
-        /* Specific centering for Project 5 Image (The problematic one) */
+        /* Specific centering for Project 5 Image */
         .project-5-image {
             max-width: 400px;
-            margin: 1rem auto;
+            margin: 0 auto;
             display: block;
         }
     </style>
@@ -82,12 +85,15 @@
             <h2 class="tagline text-xl md:text-2xl font-light text-gray-600 mt-2 mb-4">Data Scientist | Graph Neural Networks | Machine Learning in Physics</h2>
             <p class="skills text-lg font-medium text-gray-700"><strong>Skills:</strong> Python / Fortran / C#</p>
             
+            <!-- Updated Contact Links with SVG Icons -->
             <div class="contact-links mt-6 flex justify-center space-x-6">
-                <a href="https://www.linkedin.com/in/sedighe-raeisi-684b9812b///" target="_blank" title="LinkedIn" class="hover:opacity-75 transition duration-300">
-                    <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='LinkedIn' height='30'>
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/sedighe-raeisi-684b9812b///" target="_blank" title="LinkedIn Profile" aria-label="LinkedIn Profile" class="text-blue-600 hover:text-blue-800 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
                 </a>
-                <a href="mailto:sedighe.raeisi@gmail.com" title="Email: sedighe.raeisi@gmail.com" class="hover:opacity-75 transition duration-300">
-                    <img src="https://user-images.githubusercontent.com/67642255/155072574-1a9ab065-b585-42e0-b5ee-e6e0db3b8ce8.png" alt='Email' height='30'/>
+                <!-- Email -->
+                <a href="mailto:sedighe.raeisi@gmail.com" title="Email: sedighe.raeisi@gmail.com" aria-label="Email sedighe.raeisi@gmail.com" class="text-blue-600 hover:text-blue-800 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
                 </a>
             </div>
         </header>
@@ -123,7 +129,7 @@
                 </article>
 
                 <!-- PROJECT 3: Mnist images classification with graph classification -->
-                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02] col-span-1 md:col-span-2 lg:col-span-1">
+                <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02] col-span-1 lg:col-span-1">
                     <a href="https://github.com/Sedighe-Raeisi/MNIST_with_Graph_Classification" target="_blank" class="block">
                         <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Mnist images classification with graph classification</h2>
                     </a>
@@ -162,13 +168,12 @@
                     </div>
                 </article>
 
-                <!-- PROJECT 5: Brain Tumor Detection Project - **Fixed Image Sizing** -->
+                <!-- PROJECT 5: Brain Tumor Detection Project -->
                 <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02] flex flex-col items-center text-center">
                     <a href="https://github.com/Sedighe-Raeisi/Brain-tumor-detection" target="_blank" class="block w-full">
                         <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Brain Tumor Detection Project</h2>
                     </a>
-                    <p class="mb-4 text-gray-600">A model that detects the existence of tumor in brain MRI images.</p>
-                    <!-- Apply specific max-width and centering for smaller display -->
+                    <!-- Removed redundant description for cleaner layout -->
                     <img src="https://user-images.githubusercontent.com/67642255/143002834-f2f4c136-121c-4e73-b342-8181de70a878.png" 
                          alt="Brain Tumor Detection Image" 
                          class="project-media project-5-image max-w-xs"
@@ -198,13 +203,13 @@
                         </table>
                     </div>
                 </article>
-                
+
                 <!-- PROJECT 7: Tumor Segmentation with Mask-RCNN -->
                 <article class="project-card bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-[1.02]">
                     <a href="https://github.com/Sedighe-Raeisi/Tumor-Segmentation-with-MRCNN" target="_blank" class="block">
                         <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Tumor Segmentation with Mask-RCNN</h2>
                     </a>
-                    <div class="responsive-table-container overflow-x-auto">
+                    <div class="responsive-table-container overflow-x-auto small-table">
                         <table>
                             <thead>
                                 <tr>
@@ -257,7 +262,7 @@
                     <a href="https://github.com/Sedighe-Raeisi/Mask_R-CNN" target="_blank" class="block">
                         <h2 class="project-title text-xl font-semibold text-blue-700 hover:text-blue-900 mb-3">Mask R-CNN</h2>
                     </a>
-                    <p class="mb-4 text-gray-600">I implemented the mask R-CNN with its defined classes.</p>
+                    <!-- Removed redundant description for cleaner layout -->
                     <div class="media-container">
                         <img src="https://user-images.githubusercontent.com/67642255/145722412-580e64fd-1d0b-4aa9-a763-9e367d49f911.png" alt="Mask R-CNN Implementation" class="project-media" />
                     </div>
@@ -341,12 +346,12 @@
                         <tr>
                             <td>
                                 <a href="https://mooc.ut.ac.ir/course/detail/49-/228-python" target="_blank">
-                                    <img src="https://user-images.githubusercontent.com/67642255/145722436-7fdd033d-e7c9-45ee-9a0b-789225331103.png" alt="ML Course" class="table-image" />
+                                    <img src="https://user-images.githubusercontent.com/67642255/145722436-7fdd033d-e7c9-45ee-9a0b-789225331103.png" alt="ML Course Certificate" class="table-image" />
                                 </a>
                             </td>
                             <td>
                                 <a href="https://mooc.ut.ac.ir/course/detail/49-%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C-%D8%A8%D8%B1%D9%82-%D9%88-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1/264-%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D9%88-%D8%B4%D8%A8%DA%A9%D9%87-%D9%87%D8%A7%DB%8C-%D8%B9%D8%B5%D8%A8%DB%8C-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86" target="_blank">
-                                    <img src="https://user-images.githubusercontent.com/67642255/153899442-76f666bb-dc77-457a-91d0-9d5ec563712b.png" alt="DL Course" class="table-image" />
+                                    <img src="https://user-images.githubusercontent.com/67642255/153899442-76f666bb-dc77-457a-91d0-9d5ec563712b.png" alt="DL Course Certificate" class="table-image" />
                                 </a>
                             </td>
                         </tr>
@@ -361,7 +366,7 @@
 
         <!-- FOOTER -->
         <footer class="mt-12 pt-4 text-center text-sm text-gray-500 border-t border-gray-100">
-            <p>&copy; 2025 Sedighe Raeisi. Content based on GitHub README.</p>
+            <p>&copy; 2025 Sedighe Raeisi. Designed for a clean portfolio view.</p>
         </footer>
     </div>
 </body>
