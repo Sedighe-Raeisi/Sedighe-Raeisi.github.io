@@ -3,43 +3,278 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sedighe Raeisi - Homepage</title>
+    <title>Sedighe Raeisi - Data Scientist Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Sedighe Raeisi, Ph.D.</h1>
-            <p class="tagline">Data Scientist | Graph Neural Networks | Machine Learning in Physics</p>
+        <!-- HEADER AND CONTACT SECTION -->
+        <header class="text-center">
+            <h1>Hi there 👋, My name is Sedighe Raeisi</h1>
+            <h2 class="tagline">Data Scientist | Graph Neural Networks | Machine Learning in Physics</h2>
+            <p class="skills"><strong>Skills:</strong> Python / Fortran / C#</p>
+            
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/sedighe-raeisi-684b9812b///" target="_blank" title="LinkedIn">
+                    <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='LinkedIn' height='30'>
+                </a>
+                <a href="mailto:sedighe.raeisi@gmail.com" title="Email: sedighe.raeisi@gmail.com">
+                    <img src="https://user-images.githubusercontent.com/67642255/155072574-1a9ab065-b585-42e0-b5ee-e6e0db3b8ce8.png" alt='Email' height='30'/>
+                </a>
+            </div>
         </header>
 
-        <section class="bio-section">
-            <h2>About Me</h2>
-            <p>
-                Welcome! I am a Data Scientist with a strong background in Machine Learning, Deep Learning, and their applications in physics and telecommunications. My expertise includes Graph Neural Networks (GNNs), Natural Language Processing (NLP), and time series forecasting. I am passionate about turning complex data into actionable insights and elegant solutions.
-            </p>
+        <section class="projects-list">
+            <h3>Highlights of My GitHub Projects</h3>
+            
+            <!-- PROJECT 1: Individual-Based Model Discovery -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/Individual_Based_Sindy" target="_blank">
+                    <h2 class="project-title">Individual-Based Model Discovery with Hierarchical Bayesian SINDy</h2>
+                </a>
+                <img src="https://github.com/user-attachments/assets/29de12ae-1420-4d37-8897-98b3f3b98495" alt="Individual Based Sindy Visualization" class="project-media large-image" width="100%">
+            </article>
+
+            <!-- PROJECT 2: Link Prediction with PyG GCN -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/Link-Prediction-with-Pytorch-GCN" target="_blank">
+                    <h2 class="project-title">Link Prediction with PyG GCN</h2>
+                </a>
+                <div class="media-container video-frame">
+                    <video controls autoplay loop muted class="project-media">
+                        <source src="https://user-images.githubusercontent.com/67642255/198948936-f565ee08-7cbb-46f5-8194-b7660f7455b6.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </article>
+
+            <!-- PROJECT 3: Mnist images classification with graph classification -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/MNIST_with_Graph_Classification" target="_blank">
+                    <h2 class="project-title">Mnist images classification with graph classification</h2>
+                </a>
+                <div class="responsive-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>My Image-to-Graph Function</th>
+                                <th>SKlearn `img_to_graph` Command</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="https://user-images.githubusercontent.com/67642255/187020211-192b29fa-69c2-4f3b-a1ba-201f4b2db5db.png" alt="My function visualization" class="table-image" width="300" /></td>
+                                <td><img src="https://user-images.githubusercontent.com/67642255/187020227-ffc38864-f464-4511-97a0-0d070952977d.png" alt="SKlearn visualization" class="table-image" width="300" /></td>
+                            </tr>
+                            <tr class="accuracy-row">
+                                <td>ACC=0.961</td>
+                                <td>ACC=0.971</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <!-- PROJECT 4: karate club with Pytorch Geometric-Graph Neural Network -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/karate_club_with_Pytorch_GCNConv" target="_blank">
+                    <h2 class="project-title">karate club with Pytorch Geometric-Graph Neural Network</h2>
+                </a>
+                <div class="media-container video-frame">
+                    <video controls autoplay loop muted class="project-media">
+                        <source src="https://user-images.githubusercontent.com/67642255/177564318-6848a91f-27cd-4118-ac49-82f26e32caf4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </article>
+
+            <!-- PROJECT 5: Brain Tumor Detection Project -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/Brain-tumor-detection" target="_blank">
+                    <h2 class="project-title">Brain Tumor Detection Project</h2>
+                </a>
+                <p>A model that detects the existence of tumor in brain MRI images.</p>
+                <img src="https://user-images.githubusercontent.com/67642255/143002834-f2f4c136-121c-4e73-b342-8181de70a878.png" alt="Brain Tumor Detection Image" class="project-media large-image" width="100%">
+            </article>
+
+            <!-- PROJECT 6: Tumor Object Detection with YOLO-V5 -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/Tumor_Object_Detection" target="_blank">
+                    <h2 class="project-title">Tumor Object Detection with YOLO-V5</h2>
+                </a>
+                <div class="responsive-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Original Image</th>
+                                <th>Image with Detected Objects</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="https://user-images.githubusercontent.com/67642255/152168246-0edd2560-b627-4146-8003-47bc50ecadfc.png" alt="Original Image" class="table-image" width="300" /></td>
+                                <td><img src="https://user-images.githubusercontent.com/67642255/152168288-b5122927-363e-4172-b2c3-af962159e762.png" alt="Detected Objects" class="table-image" width="300" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <!-- PROJECT 7: Tumor Segmentation with Mask-RCNN -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/Tumor-Segmentation-with-MRCNN" target="_blank">
+                    <h2 class="project-title">Tumor Segmentation with Mask-RCNN</h2>
+                </a>
+                <div class="responsive-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Original Image</th>
+                                <th>Image with Segmented Objects</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="https://user-images.githubusercontent.com/67642255/154489767-2747ca12-48ac-43a2-a4f0-60eef29dbe37.png" alt="Original Image" class="table-image" width="300" /></td>
+                                <td><img src="https://user-images.githubusercontent.com/67642255/154489716-8ad042cd-51c0-4ae4-970c-56f971c241e6.png" alt="Segmented Objects" class="table-image" width="300" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <!-- PROJECT 8: Persian Digit Detection -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/Object_Detection_Persian_Digit_Detection" target="_blank">
+                    <h2 class="project-title">Persian Digit Detection</h2>
+                </a>
+                <img src="https://user-images.githubusercontent.com/67642255/143003349-fd0997f9-d851-4d2c-844a-2ce93fd3bd00.png" alt="Persian Digit Detection" class="project-media large-image" width="100%">
+            </article>
+
+            <!-- PROJECT 9: Analysis of Value of Bank Customers -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/Analysis-of-value-of-bank-customers" target="_blank">
+                    <h2 class="project-title">Analysis of Value of Bank Customers</h2>
+                </a>
+                <img src="https://user-images.githubusercontent.com/67642255/143004823-9b0ba573-dedp-455d-bcbb-479217910f8d.png" alt="Bank Customer Analysis" class="project-media large-image" width="100%">
+            </article>
+
+            <!-- PROJECT 10: Stock Market Time Series Forecasting -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/Stock-Market-Predicting-with-LSTM" target="_blank">
+                    <h2 class="project-title">Stock Market Time Series Forecasting</h2>
+                </a>
+                <img src="https://user-images.githubusercontent.com/67642255/145201142-8f9b28ac-d3bf-4a95-ac0a-121e6dd61b25.png" alt="Stock Market Forecasting" class="project-media large-image" width="100%">
+            </article>
+
+            <!-- PROJECT 11: Mask R-CNN -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/Mask_R-CNN" target="_blank">
+                    <h2 class="project-title">Mask R-CNN</h2>
+                </a>
+                <p>I implemented the mask R-CNN with its defined classes.</p>
+                <img src="https://user-images.githubusercontent.com/67642255/145722412-580e64fd-1d0b-4aa9-a763-9e367d49f911.png" alt="Mask R-CNN Implementation" class="project-media large-image" width="100%">
+            </article>
+
+            <!-- PROJECT 12: NLP Sentiment Analysis-English Texts -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/NLP-Sentiment-Analysis-" target="_blank">
+                    <h2 class="project-title">NLP Sentiment Analysis - English Texts</h2>
+                </a>
+                <div class="responsive-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Model Name</th>
+                                <th>Tf-Idf</th>
+                                <th>Embedding</th>
+                                <th>Pre-trained Glove</th>
+                                <th>BERT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="confusion-matrix-row">
+                                <td>Confusion Matrix</td>
+                                <td><img src="https://user-images.githubusercontent.com/67642255/147255994-86dfae0f-117d-4053-a3b9-955a3866bbe8.png" alt="Tf-Idf Matrix" class="table-image" /></td>
+                                <td><img src="https://user-images.githubusercontent.com/67642255/147254826-b1667de3-707b-4442-b976-790702c3c130.png" alt="Embedding Matrix" class="table-image" /></td>
+                                <td><img src="https://user-images.githubusercontent.com/67642255/147206246-8aa4486c-25a2-43b2-860f-ff471ed59ec4.png" alt="Glove Matrix" class="table-image" /></td>
+                                <td><img src="https://user-images.githubusercontent.com/67642255/147358075-16f9fd97-7729-40ca-a081-9bd85801a698.png" alt="BERT Matrix" class="table-image" /></td>
+                            </tr>
+                            <tr class="accuracy-row">
+                                <td>Accuracy</td>
+                                <td>0.72</td>
+                                <td>0.76</td>
+                                <td>0.77</td>
+                                <td>0.79</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <!-- PROJECT 13: NLP Sentiment Analysis-Persian Texts -->
+            <article class="project-card">
+                <a href="https://github.com/Sedighe-Raeisi/NLP_with_Dijikala_dataset" target="_blank">
+                    <h2 class="project-title">NLP Sentiment Analysis - Persian Texts</h2>
+                </a>
+                <div class="responsive-table-container small-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Model Name</th>
+                                <th>Random Forest Classifier</th>
+                                <th>SGD</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="accuracy-row">
+                                <td>Accuracy</td>
+                                <td>0.80</td>
+                                <td>0.79</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
         </section>
 
-        <section class="links-section">
-            <h2>Connect</h2>
-            <nav class="social-links">
-                <a href="https://github.com/Sedighe-Raeisi" target="_blank">GitHub</a>
-                <a href="https://scholar.google.com/citations?user=YGzfYbwAAAAJ" target="_blank">Google Scholar</a>
-                <a href="#" target="_blank">LinkedIn</a>
-                <a href="mailto:your.email@example.com">Email</a>
-            </nav>
-        </section>
-        
-        <section class="projects-section">
-            <h2>Selected Projects</h2>
-            <ul class="project-list">
-                <li><a href="https://github.com/Sedighe-Raeisi/Link-Prediction-with-Pytorch-GCN" target="_blank">Link Prediction with Pytorch GCN</a> - *A hands-on tutorial for GNNs.*</li>
-                <li><a href="#">Machine Learning Book Co-Author</a> - *A link to the book or publisher page.*</li>
-            </ul>
+        <!-- ONLINE COURSES SECTION -->
+        <section class="online-courses">
+            <h3>My Online Courses</h3>
+            <div class="responsive-table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Machine Learning with Python</th>
+                            <th>Deep Learning and Neural Networks with Python</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="https://mooc.ut.ac.ir/course/detail/49-/228-python" target="_blank">
+                                    <img src="https://user-images.githubusercontent.com/67642255/145722436-7fdd033d-e7c9-45ee-9a0b-789225331103.png" alt="ML Course" class="table-image" />
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://mooc.ut.ac.ir/course/detail/49-%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C-%D8%A8%D8%B1%D9%82-%D9%88-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1/264-%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C-%D8%B9%D9%85%DB%8C%D9%82-%D9%88-%D8%B4%D8%A8%DA%A9%D9%87-%D9%87%D8%A7%DB%8C-%D8%B9%D8%B5%D8%A8%DB%8C-%D8%A8%D8%A7-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86" target="_blank">
+                                    <img src="https://user-images.githubusercontent.com/67642255/153899442-76f666bb-dc77-457a-91d0-9d5ec563712b.png" alt="DL Course" class="table-image" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="course-name-row">
+                            <td>**Tehran University**</td>
+                            <td>**Tehran University**</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
 
         <footer>
-            <p>&copy; 2025 Sedighe Raeisi. Last updated: Oct 2025.</p>
+            <p>&copy; 2025 Sedighe Raeisi. Content based on GitHub README.</p>
         </footer>
     </div>
 </body>
